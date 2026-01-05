@@ -1,41 +1,20 @@
-# Prerequisites
-*.d
+# Node / editor / OS (general web project)
+node_modules/
+dist/
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# macOS
+.AppleDouble
+.LSOverride
 
-# Precompiled Headers
-*.gch
-*.pch
+# JetBrains
+.idea/
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# npm debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
