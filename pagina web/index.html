@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Plataforma segura para apuestas en loterías colombianas. Únete a nuestro grupo de WhatsApp para gestión profesional, actualizaciones en tiempo real y comunidad activa.">
+  <meta name="keywords" content="loterías Colombia, apuestas, WhatsApp, Baloto, Bogotá, Medellín, juego seguro">
+  <meta name="author" content="Loterías Colombia">
+  <meta name="robots" content="index, follow">
+  <title>Apuestas en Loterías de Colombia</title>
+
+  <!-- Favicon: coloca /assets/favicon.ico -->
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts & Font Awesome (CDN) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="" crossorigin="anonymous">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Age verification modal (mejor práctica: importante para sitios de juego) -->
+  <div id="age-modal" class="modal-hidden" aria-hidden="true" role="dialog" aria-labelledby="age-title">
+    <div class="modal-box">
+      <h2 id="age-title">Verificación de Edad</h2>
+      <p>Debes tener al menos 18 años para acceder a este contenido. ¿Eres mayor de 18 años?</p>
+      <div class="actions">
+        <button id="confirm-age" class="btn btn-primary">Sí, soy mayor</button>
+        <button id="deny-age" class="btn btn-danger">No, salir</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Hero -->
+  <header class="hero" role="banner">
+    <nav class="nav" role="navigation" aria-label="Navegación principal">
+      <a class="brand" href="/">Loterías Colombia</a>
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu"><i class="fas fa-bars"></i><span class="sr-only">Menu</span></button>
+      <ul id="main-menu" class="menu" role="menubar">
+        <li role="none"><a role="menuitem" href="#inicio">Inicio</a></li>
+        <li role="none"><a role="menuitem" href="#como-funciona">Cómo Funciona</a></li>
+        <li role="none"><a role="menuitem" href="#loterias">Loterías</a></li>
+        <li role="none"><a role="menuitem" href="#testimonios">Testimonios</a></li>
+        <li role="none"><a role="menuitem" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-inner">
+      <h1>Apuestas en Loterías de Colombia</h1>
+      <p>Participa de forma segura en las principales loterías nacionales a través de nuestro grupo exclusivo de WhatsApp.</p>
+      <a class="cta" href="https://chat.whatsapp.com/J6hNB5qDKHIJINwSGuhE5M" target="_blank" rel="noopener noreferrer" aria-label="Únete al grupo de WhatsApp"><i class="fab fa-whatsapp"></i> Únete al Grupo Ahora</a>
+    </div>
+  </header>
+
+  <main id="inicio" role="main" class="container">
+    <section aria-labelledby="confiable-title">
+      <h2 id="confiable-title">Plataforma Confiable y Segura</h2>
+      <p>Únete a miles de apostadores que confían en nuestro sistema profesional. Operamos bajo estándares de seguridad y transparencia.</p>
+
+      <div class="badges">
+        <div class="badge"><i class="fas fa-lock"></i><span>Seguridad</span></div>
+        <div class="badge"><i class="fas fa-shield-alt"></i><span>Verificado</span></div>
+        <div class="badge"><i class="fas fa-users"></i><span>+10,000 Usuarios</span></div>
+      </div>
+    </section>
+
+    <section id="como-funciona" aria-labelledby="pasos-title">
+      <h2 id="pasos-title">Proceso Simple en 4 Pasos</h2>
+      <ol>
+        <li>Únete al Grupo</li>
+        <li>Regístrate</li>
+        <li>Selecciona y Apuesta</li>
+        <li>Gana y Cobra</li>
+      </ol>
+    </section>
+
+    <section id="loterias" aria-labelledby="loterias-title">
+      <h2 id="loterias-title">Loterías Disponibles</h2>
+      <div class="grid">
+        <div class="card">Baloto</div>
+        <div class="card">Lotería de Bogotá</div>
+        <div class="card">Lotería de Medellín</div>
+        <div class="card">Lotería del Tolima</div>
+      </div>
+    </section>
+
+    <section id="testimonios" aria-labelledby="testimonios-title">
+      <h2 id="testimonios-title">Testimonios</h2>
+      <div class="testimonials">
+        <blockquote>"Excelente servicio."</blockquote>
+        <cite>- Usuario</cite>
+      </div>
+    </section>
+
+    <section id="contacto" aria-labelledby="contacto-title">
+      <h2 id="contacto-title">Contacto y Soporte</h2>
+
+      <div class="tabs">
+        <div class="tab-buttons" role="tablist">
+          <button class="tab active" data-tab="whatsapp" role="tab" aria-selected="true">WhatsApp</button>
+          <button class="tab" data-tab="form" role="tab">Formulario</button>
+          <button class="tab" data-tab="email" role="tab">Email</button>
+        </div>
+
+        <div class="tab-contents">
+          <div id="whatsapp" class="tab-content active" role="tabpanel">
+            <p>Únete al grupo oficial:</p>
+            <a class="cta small" href="https://chat.whatsapp.com/J6hNB5qDKHIJINwSGuhE5M" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> Grupo Principal</a>
+          </div>
+
+          <div id="form" class="tab-content" role="tabpanel">
+            <form id="contact-form" novalidate>
+              <label for="nombre">Nombre *</label>
+              <input id="nombre" name="nombre" required>
+
+              <label for="email">Email *</label>
+              <input id="email" type="email" name="email" required>
+
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+
+          <div id="email" class="tab-content" role="tabpanel">
+            <p>Correo: <a href="mailto:logoproductivoentuvida@gmail.com">logoproductivoentuvida@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 Apuestas en Loterías de Colombia. Juega responsablemente.</p>
+      <p><a href="/404.html">404</a> · <a href="/assets/favicon.ico">Favicon</a></p>
+    </div>
+  </footer>
+
+  <script src="/js/script.js" defer></script>
+</body>
+</html>
